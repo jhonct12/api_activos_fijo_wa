@@ -1,22 +1,33 @@
-.App {
-  text-align: center;
+.app {
+  border-radius: 4px !important;
+  margin-top: 120px !important;
+  padding: 30px !important;
+  background: #fff !important;
 }
 
-.App-logo {
-  height: 40vmin;
+.tableRowsM {
+    height: auto !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.headerTable {
+    position: sticky !important;
+    top: 0 !important;
+    background-color: #0a2f5b !important;
+    color: #fff !important;
 }
 
-.App-link {
-  color: #09d3ac;
+.rootRowHeader {
+    display: table-cell !important;
+    padding: 0px 0px 0px 5px !important;
+    border-bottom: 1px solid rgba(224, 224, 224, 1) !important;
+    vertical-align: inherit !important;
+}
+
+
+.rowSelected {
+    background-color: #739da7 !important;
+}
+
+.rowOther:nth-of-type(odd) {
+    background-color: rgba(10, 47, 91, 0.22);
 }
